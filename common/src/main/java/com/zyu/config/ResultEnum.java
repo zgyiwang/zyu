@@ -7,6 +7,7 @@ public enum ResultEnum {
     private String message;
     private boolean status;
 
+
     ResultEnum(String code, String message) {
         this.code = code;
         this.message = message;
